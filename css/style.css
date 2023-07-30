@@ -181,6 +181,7 @@ h1 > a{
     font-size: 1rem;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 .QScontainer > h3{
@@ -535,6 +536,14 @@ form{
     .mainContacto{
         grid-template-columns: 1fr;
         grid-row: 1fr 1fr;
+    }
+
+    .contactese__texto{
+        padding-left: 1rem;
+    }
+
+    label >input{
+        color: white;
     }
 
     .maps{
