@@ -122,7 +122,6 @@ h1 > a{
 /* index */
 
 .texto > h2{
-    font-family: roboto ;
     font-size: 4rem;
 }
 
@@ -266,6 +265,52 @@ img{
 .img6{
     grid-area: img6;
 }
+
+/* Cafeteria */
+
+.contenedor{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+    min-height: 70vh;
+}
+
+
+.contenedor__img,
+.contenedor__qr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(174, 64, 64, 0.696);
+    border-radius: 30px;
+    font-size: 13px;
+    border: 5px solid black;
+    min-height: 80%;
+}
+
+.parrafoCafeteria,
+.parrafoCarta{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.imgCafeteria,
+.qr{
+object-fit: cover;
+width: 80%;
+flex: 1;
+padding: 1rem;
+}
+
+
+
 
 /* Contacto */
 
@@ -479,6 +524,12 @@ form{
         "img5 img6";
     }
 
+    /* Cafeteria */
+   .contenedor{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+   }
+ 
     /* Contacto */
 
     .mainContacto{
