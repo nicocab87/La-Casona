@@ -1,0 +1,154 @@
+@media(max-width:550px){
+
+    body{
+        /* height: 100vh;
+        width: 100vw; */
+        background-repeat: repeat-y;
+        background-color: white;
+    }
+
+    /* Header */
+    .top{
+    width: 100%;
+    }
+    
+    
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(174, 64, 64, .95);
+        position: absolute;
+        gap: 3rem;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 2rem;
+        box-shadow:0 0 0 100vmax rgb(0, 0, 0, .5 );
+
+         opacity: 0;
+        visibility: hidden; 
+    }
+
+    .visible ul {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(174, 64, 64, .95);
+        position: absolute;
+        gap: 3rem;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 2rem;
+        box-shadow:0 0 0 100vmax rgb(0, 0, 0, .5 );
+
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .lista{
+    background-color: transparent;
+    color: rgb(230, 226, 226);
+    border: none;
+    border-radius: none;
+    padding: 16px;
+    margin-bottom: 3rem;
+    margin: 10px;
+    border-radius: 0px;
+    justify-self: 15px;
+    transition: none;
+    width: 100%;
+    }
+
+    .lista:hover{
+        background-color:transparent;
+        color: white;
+    }
+
+
+    .menu__boton--abrir,
+    .menu__boton--cerrar{
+        display:block;
+    }
+
+    .menu__boton--abrir{
+        color:black;
+        background-color:white;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 1rem;
+        padding: 4px;
+        
+    }
+ 
+    .menu__boton--cerrar{
+        align-self: self-end;
+        background-color: transparent;
+        border: 0px;
+        font-size: 17px;
+    }
+
+    /* Footer */
+    
+    .pie{
+       justify-content: center;
+    }
+
+    /* Index */
+
+    .texto > h2{
+        font-size: 3rem;
+    }
+
+    /* Quienes somos */
+    .quienesSomos{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .QSimg > img{
+        width: 100%;
+    }
+    
+
+    /* Panadería */
+    .pana2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "img1 img2"
+        "img3 img4"
+        "img5 img6";
+    }
+
+    /* Cafeteria */
+   .contenedor{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+   }
+ 
+    /* Contacto */
+
+    .mainContacto{
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr;
+    }
+
+    .contactese__texto{
+        padding-left: 1rem;
+    }
+
+    label >input{
+        color: white;
+    }
+
+    .maps{
+        width: fit-content;
+        justify-self: center;
+    }
+
+    .maps > iframe{
+        width: min-content;
+    }
+    
+    }

@@ -1,0 +1,17 @@
+.pie{
+    display: flex;
+    justify-content:flex-end ;
+    object-position: bottom;
+
+    .Nr{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+        padding-top: 15px;
+        padding-right: 13px;
+    }
+}
+
+.redes{
+    font-size: 2.5rem;
+}

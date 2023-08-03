@@ -1,0 +1,56 @@
+.pana2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "img1 img2 img3"
+    "img4 img5 img6" ;
+    column-gap: 2rem;
+    row-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+    &> div{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:start;
+        align-items: center;
+        flex-grow: 1;
+        /* background-color:rgba(174, 64, 64, 0.696); */
+        background-color: rgba(93, 92, 92, 0.874);
+        padding: 1rem;
+        border-radius: 30px;
+        font-size: 13px;
+        border: 5px solid black;
+
+        .parrafo{
+            padding-top: 10px;
+            color: white;
+        }
+
+        img{
+            width: 130px;
+        }
+    }
+}
+
+
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}

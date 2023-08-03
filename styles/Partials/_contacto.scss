@@ -1,0 +1,85 @@
+.mainContacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%;
+    height: 100vh; */
+
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: rgba(174, 64, 64, 0.696); */
+        background-color: rgba(93, 92, 92, 0.874);
+        border: 5px solid black;
+        border-radius: 30px;
+        margin: 6rem;
+
+        .contactese{
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &>p{
+                font-size: 2rem;
+                color: white;
+            }
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            padding: 1.5rem;
+
+            .boton{
+                width: fit-content;
+                padding: .3rem;
+                margin-top: .5rem;
+                /* border-radius: 5px; */
+                background-color: white;
+                color: black;
+                border: 1px solid black;
+            }
+        }
+    }
+
+    .maps{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgba(174, 64, 64, 0.696); */
+        background-color: rgba(93, 92, 92, 0.874);
+        border: 5px solid black;
+        border-radius: 30px;
+        margin: 1rem;
+        padding: 1rem;
+
+        &>div{
+            display: flex;
+            align-items: center;
+
+            &>p {
+                font-size: 2rem;
+                color: white;
+                margin-bottom: 1rem;
+                padding: 1rem;
+            }
+
+            &>i{
+                color: white;
+                font-size: 1.5rem;
+                padding-bottom: 10px;
+                padding-right: 15px;
+            }
+        }
+    }
+    
+}
+
+
+
