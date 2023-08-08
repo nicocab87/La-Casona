@@ -34,21 +34,14 @@
                 }
             }
 
-        .menu__boton--abrir{
-                display: none;
-            }
-
         .menu{
+
                 ul{
                     display: flex;
                     list-style-type: none ;
                     flex-wrap: wrap;
                     flex-direction: row;
                     font-size: 15px;
-
-                    .menu__boton--cerrar{
-                        display: none;
-                    }
 
                     .lista{
                         background-color: white;
@@ -75,6 +68,14 @@
 
             }
 
+
+.menu__boton--abrir{
+    display: none;
+}
+
+.menu__boton--cerrar{
+    display: none;
+}            
 
 .nombre{
     background-color:  white;

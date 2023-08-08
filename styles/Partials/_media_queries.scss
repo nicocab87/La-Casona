@@ -29,7 +29,7 @@
         visibility: hidden; 
     }
 
-    .visible ul {
+    .visible ul{
         display: flex;
         flex-direction: column;
         background-color: rgba(174, 64, 64, .95);
@@ -43,9 +43,15 @@
 
         opacity: 1;
         visibility: visible;
+    
     }
 
-    .lista{
+    .top .menu ul{
+        flex-direction: column;
+
+    }
+
+    .top .menu ul .lista{
     background-color: transparent;
     color: rgb(230, 226, 226);
     border: none;
@@ -59,11 +65,13 @@
     width: 100%;
     }
 
-    .lista:hover{
+    .top .menu ul .lista:hover {
         background-color:transparent;
         color: white;
     }
 
+
+  
 
     .menu__boton--abrir,
     .menu__boton--cerrar{
@@ -95,9 +103,11 @@
 
     /* Index */
 
-    .texto > h2{
+    .mainIndex .texto > h2{
         font-size: 3rem;
     }
+
+
 
     /* Quienes somos */
     .quienesSomos{
@@ -105,7 +115,7 @@
         grid-template-rows: 1fr 1fr;
     }
 
-    .QSimg > img{
+    .quienesSomos .QSimg > img {
         width: 100%;
     }
     

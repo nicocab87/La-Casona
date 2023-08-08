@@ -46,18 +46,12 @@ body {
   font-size: 10px;
   padding-left: 50px;
 }
-.top .menu__boton--abrir {
-  display: none;
-}
 .top .menu ul {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
   flex-direction: row;
   font-size: 15px;
-}
-.top .menu ul .menu__boton--cerrar {
-  display: none;
 }
 .top .menu ul .lista {
   background-color: white;
@@ -75,6 +69,14 @@ body {
 .top .menu ul .lista:hover {
   background-color: black;
   color: rgb(230, 226, 226);
+}
+
+.menu__boton--abrir {
+  display: none;
+}
+
+.menu__boton--cerrar {
+  display: none;
 }
 
 .nombre {
@@ -204,6 +206,10 @@ body {
   border-radius: 30px;
   font-size: 13px;
   border: 5px solid black;
+}
+.pana2 > div:hover {
+  transform: scale(1.1);
+  background-color: rgb(93, 92, 92);
 }
 .pana2 > div .parrafo {
   padding-top: 10px;
@@ -389,7 +395,10 @@ body {
     opacity: 1;
     visibility: visible;
   }
-  .lista {
+  .top .menu ul {
+    flex-direction: column;
+  }
+  .top .menu ul .lista {
     background-color: transparent;
     color: rgb(230, 226, 226);
     border: none;
@@ -402,7 +411,7 @@ body {
     transition: none;
     width: 100%;
   }
-  .lista:hover {
+  .top .menu ul .lista:hover {
     background-color: transparent;
     color: white;
   }
@@ -429,7 +438,7 @@ body {
     justify-content: center;
   }
   /* Index */
-  .texto > h2 {
+  .mainIndex .texto > h2 {
     font-size: 3rem;
   }
   /* Quienes somos */
@@ -437,7 +446,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .QSimg > img {
+  .quienesSomos .QSimg > img {
     width: 100%;
   }
   /* Panadería */
