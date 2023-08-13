@@ -23,6 +23,7 @@ body {
   background-repeat: repeat-x;
   background-size: contain;
   align-items: center;
+  height: 15vh;
 }
 .top .logo {
   display: flex;
@@ -111,7 +112,7 @@ body {
   display: grid;
   place-items: center;
   width: 100vw;
-  height: 100vh;
+  min-height: 85vh;
 }
 .mainIndex .texto {
   font-weight: bolder;
@@ -141,6 +142,7 @@ body {
   grid-template-rows: 1fr;
   gap: 1.5rem;
   margin: 1rem;
+  min-height: 85vh;
   /* width: 100vh;
   height: 100vh; */
 }
@@ -177,7 +179,7 @@ body {
   justify-self: center;
 }
 .quienesSomos .QSimg > img {
-  width: 500px;
+  width: 400px;
   border: 5px solid black;
   border-radius: 50px;
 }
@@ -193,6 +195,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1rem;
+  min-height: 85vh;
 }
 .pana2 > div {
   display: flex;
@@ -251,7 +254,7 @@ body {
   align-items: center;
   gap: 2rem;
   margin: 2rem;
-  min-height: 70vh;
+  min-height: 85vh;
 }
 .contenedor .contenedor__img,
 .contenedor .contenedor__qr {
@@ -287,6 +290,7 @@ body {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
+  min-height: 85vh;
   /* width: 100%;
   height: 100vh; */
 }
@@ -420,8 +424,8 @@ body {
     display: block;
   }
   .menu__boton--abrir {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgb(93, 92, 92);
     border: 1px solid black;
     border-radius: 10px;
     font-size: 1rem;
@@ -438,6 +442,9 @@ body {
     justify-content: center;
   }
   /* Index */
+  .mainIndex .texto {
+    padding: 1rem;
+  }
   .mainIndex .texto > h2 {
     font-size: 3rem;
   }
@@ -456,6 +463,9 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "img1 img2" "img3 img4" "img5 img6";
   }
+  .pana2 > div {
+    padding: 0.7rem;
+  }
   /* Cafeteria */
   .contenedor {
     grid-template-columns: 1fr;
@@ -473,12 +483,10 @@ body {
     color: white;
   }
   .maps {
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 300px;
     justify-self: center;
   }
   .maps > iframe {
-    width: -moz-min-content;
-    width: min-content;
+    width: 200px;
   }
 }/*# sourceMappingURL=main.css.map */

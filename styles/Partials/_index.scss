@@ -2,7 +2,8 @@
     display: grid;
     place-items: center;
     width: 100vw;
-    height: 100vh;
+    // height: 100vh;
+    min-height: 85vh;
 
     .texto{
         font-weight: bolder;

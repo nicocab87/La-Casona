@@ -79,8 +79,8 @@
     }
 
     .menu__boton--abrir{
-        color:black;
-        background-color:white;
+        color:white;
+        background-color:rgba(93, 92, 92);
         border: 1px solid black;
         border-radius: 10px;
         font-size: 1rem;
@@ -103,11 +103,17 @@
 
     /* Index */
 
-    .mainIndex .texto > h2{
-        font-size: 3rem;
+    .mainIndex {
+    
+        .texto{
+            padding: 1rem;
+        
+             
+            &>h2{
+            font-size: 3rem;
+            }
+        }
     }
-
-
 
     /* Quienes somos */
     .quienesSomos{
@@ -129,6 +135,10 @@
         "img1 img2"
         "img3 img4"
         "img5 img6";
+
+        &>div{
+        padding: .7rem;
+        }
     }
 
     /* Cafeteria */
@@ -153,12 +163,12 @@
     }
 
     .maps{
-        width: fit-content;
+        width:300px;
         justify-self: center;
     }
 
     .maps > iframe{
-        width: min-content;
+        width: 200px;
     }
     
     }
