@@ -357,7 +357,7 @@ body {
   .menu ul {
     display: flex;
     flex-direction: column;
-    background-color: rgba(174, 64, 64, 0.95);
+    background-color: rgba(174, 64, 64, 0.9490196078);
     position: absolute;
     gap: 3rem;
     top: 0;
@@ -371,7 +371,7 @@ body {
   .visible ul {
     display: flex;
     flex-direction: column;
-    background-color: rgba(174, 64, 64, 0.95);
+    background-color: rgba(174, 64, 64, 0.9490196078);
     position: absolute;
     gap: 3rem;
     top: 0;
@@ -453,7 +453,7 @@ body {
   .menu ul {
     display: flex;
     flex-direction: column;
-    background-color: rgba(174, 64, 64, 0.95);
+    background-color: rgba(174, 64, 64, 0.9490196078);
     position: absolute;
     gap: 3rem;
     top: 0;
@@ -467,7 +467,7 @@ body {
   .visible ul {
     display: flex;
     flex-direction: column;
-    background-color: rgba(174, 64, 64, 0.95);
+    background-color: rgba(174, 64, 64, 0.9490196078);
     position: absolute;
     gap: 3rem;
     top: 0;
