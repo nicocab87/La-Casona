@@ -8,35 +8,11 @@
         }
 
         .menu ul{
-            display: flex;
-            flex-direction: column;
-            background-color: rgba(174, 64, 64, .95);
-            position: absolute;
-            gap: 3rem;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            padding: 2rem;
-            box-shadow:0 0 0 100vmax rgb(0, 0, 0, .5 );
-    
-             opacity: 0;
-            visibility: hidden; 
+           @include menu_MQ (0, hidden);
         }
     
         .visible ul{
-            display: flex;
-            flex-direction: column;
-            background-color: rgba(174, 64, 64, .95);
-            position: absolute;
-            gap: 3rem;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            padding: 2rem;
-            box-shadow:0 0 0 100vmax rgb(0, 0, 0, .5 );
-    
-            opacity: 1;
-            visibility: visible;
+            @include menu_MQ (1, visible);
         
         }
     
@@ -119,8 +95,6 @@
 @media(max-width:552px){
 
     body{
-        /* height: 100vh;
-        width: 100vw; */
         background-repeat: repeat-y;
         background-color: white;
     }
@@ -132,37 +106,12 @@
     
     
     .menu ul{
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(174, 64, 64, .95);
-        position: absolute;
-        gap: 3rem;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        padding: 2rem;
-        box-shadow:0 0 0 100vmax rgb(0, 0, 0, .5 );
-
-         opacity: 0;
-        visibility: hidden; 
-    }
-
-    .visible ul{
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(174, 64, 64, .95);
-        position: absolute;
-        gap: 3rem;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        padding: 2rem;
-        box-shadow:0 0 0 100vmax rgb(0, 0, 0, .5 );
-
-        opacity: 1;
-        visibility: visible;
-    
-    }
+        @include menu_MQ (0, hidden);
+     }
+ 
+     .visible ul{
+         @include menu_MQ (1, visible);
+     }
 
     .top .menu ul{
         flex-direction: column;
