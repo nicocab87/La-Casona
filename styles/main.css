@@ -349,6 +349,10 @@ body {
 }
 
 @media (min-width: 553px) and (max-width: 1023px) {
+  body {
+    background-repeat: repeat-y;
+    background-color: white;
+  }
   /* Header */
   .top {
     justify-content: space-evenly;
@@ -357,7 +361,7 @@ body {
   .menu ul {
     display: flex;
     flex-direction: column;
-    background-color: rgba(174, 64, 64, 0.9490196078);
+    background-color: rgba(174, 64, 64, 0.949);
     position: absolute;
     gap: 3rem;
     top: 0;
@@ -371,7 +375,7 @@ body {
   .visible ul {
     display: flex;
     flex-direction: column;
-    background-color: rgba(174, 64, 64, 0.9490196078);
+    background-color: rgba(174, 64, 64, 0.949);
     position: absolute;
     gap: 3rem;
     top: 0;
@@ -453,7 +457,7 @@ body {
   .menu ul {
     display: flex;
     flex-direction: column;
-    background-color: rgba(174, 64, 64, 0.9490196078);
+    background-color: rgba(174, 64, 64, 0.949);
     position: absolute;
     gap: 3rem;
     top: 0;
@@ -467,7 +471,7 @@ body {
   .visible ul {
     display: flex;
     flex-direction: column;
-    background-color: rgba(174, 64, 64, 0.9490196078);
+    background-color: rgba(174, 64, 64, 0.949);
     position: absolute;
     gap: 3rem;
     top: 0;
