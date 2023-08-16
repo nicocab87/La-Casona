@@ -429,6 +429,14 @@ body {
   .pie {
     justify-content: center;
   }
+  /* Quienes somos */
+  .quienesSomos {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .quienesSomos .QSimg > img {
+    width: 500px;
+  }
   /* contacto */
   .mainContacto {
     grid-template-columns: 1fr;
