@@ -29,6 +29,10 @@
         margin-bottom: 15px;
     }
 
+    .imgCafeteria{
+        animation: slit-in-diagonal-2 1s ease-out;
+    }
+
     .imgCafeteria,
     .qr{
         object-fit: cover;

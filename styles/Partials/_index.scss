@@ -3,6 +3,7 @@
     place-items: center;
     width: 100vw;
     min-height: 85vh;
+    animation: wobble-hor-top 5s ease;
 
     .texto{
         font-weight: bolder;
